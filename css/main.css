@@ -31,7 +31,8 @@ a:hover {
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 2em;
 	padding: 4px 11px 7px 11px;
-	color: #3b92ab;
+	background: #3b92ab; 
+	color: #171718;
 }
 
 .logo:hover{
