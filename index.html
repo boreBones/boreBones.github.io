@@ -3,7 +3,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+    <meta charset='UTF-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -14,24 +14,33 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- Custom Slider CSS -->
     <link rel="stylesheet" href="css/unslider.css">
+
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
 
+    <script src="js/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 100,
+            mobile: true,
+            live: true
+        })
+        wow.init();
+
+    </script>
 </head>
 
 <body>
@@ -80,8 +89,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Welcome to My Portfolio!</h1>
-                        <hr class="intro-divider">
+                        <div class="clip-text clip-text_four">FAIZAN SYED</div>
                         <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://github.com/boreBones" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -105,15 +113,33 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-lg-8 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">A Little About Me:</h2>
-                    <p class="lead">Hello! My Name is Faizan Syed. I am a motivated Computer Science Grad based in Toronto who has a passion for coding and web development. This is my personal website I hope to show you some great projects that I have worked on!</p>
+                    <div class="wow bounceInUp">
+                        <p class="lead">
+                            Hello! I am a motivated Computer Science Grad based in the Greater Toronto Area who has a passion for coding and web development. This is my personal website I hope to show you some great projects that I have worked on!
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="/images/myself.png" alt="">
+                <div class="col-lg-3 col-lg-offset-1 col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6 wow fadeInRight" style="padding-bottom:0.4em;">
+                            <img class="img-responsive" src="images/code.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6 wow fadeInUp" style="padding-bottom:0.4em;">
+                            <img class="img-responsive" src="images/education.png" alt="">
+                        </div>
+                        <div class="col-sm-6 wow fadeInDown">
+                            <img class="img-responsive" src="images/graph.png" alt="">
+                        </div>
+                        <div class="col-sm-6 wow fadeInLeft">
+                            <img class="img-responsive" src="images/web.png" alt="">
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
         </div>
@@ -122,68 +148,71 @@
     </div>
     <!-- /.content-section-a -->
 
+
     <div class="content-section-a" id="projects">
 
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                    <div class="my-slider">
-                        <ul>
-                            <li>
-                                <div class="thumbnail">
-                                    <img src="images/linkr.PNG">
-                                    <p><strong>Listr.com (Capstone Project)</strong></p>
-                                    <p>A website where you can list your favorite things</p>
-                                    <p>Languages Used: C#, ASP.NET, PHP, SQL, HTML, BootStrap</p>
-                                    <p><a href="http://sheridancapstone-001-site1.etempurl.com">Website</a></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="thumbnail">
-                                    <img cl src="images/japNow.PNG" />
-                                    <p><strong>JapNow.com</strong></p>
-                                    <p>A tourist website about Japan</p>
-                                    <p>Languages Used: HTML, CSS, AJAX, PHP</p>
-                                    <p><a href="https://github.com/boreBones/Source-Files/tree/master/JapNow">GitHub Repository</a></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="thumbnail">
-                                    <img src="images/toDoApp.PNG">
-                                    <p><strong>To Do Notes Application</strong></p>
-                                    <p>A visual novel game about finding a date in a bar</p>
-                                    <p>Languages Used: C# & ASP.NET</p>
-                                    <p><a href="https://github.com/boreBones/Source-Files/tree/master/T_R_C_F_Final_Project">GitHub Repository</a></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="thumbnail">
-                                    <img cl src="images/MTSPC.PNG" />
-                                    <p><strong>MSPC.com</strong></p>
-                                    <p>Website for a Local Accounting Firm</p>
-                                    <p>Languages Used: HTML, CSS & JQuery</p>
-                                    <p><a href="https://github.com/boreBones/Source-Files/tree/master/public_html">GitHub Repository</a></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="thumbnail">
-                                    <img src="images/jQueryMobile.PNG">
-                                    <p><strong>Tourist Destination Mobile Site</strong></p>
-                                    <p>A visual novel game about finding a date in a bar</p>
-                                    <p>Languages Used: HTML, CSS, JQuery & JQuery Mobile</p>
-                                    <p><a href="http://mobile.sheridanc.on.ca/~syefaiza/Final%20Project/">Website</a></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="thumbnail">
-                                    <img src="images/datingGame.PNG">
-                                    <p><strong>Visual Novel Game</strong></p>
-                                    <p>A visual novel game about finding a date in a bar</p>
-                                    <p>Languages Used: C++ & SDL Library</p>
-                                    <p><a href="https://github.com/boreBones/Source-Files/tree/master/DatingGame_FinalProject">GitHub Repository</a></p>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="wow fadeInLeft">
+                        <div class="my-slider">
+                            <ul>
+                                <li>
+                                    <div class="thumbnail">
+                                        <img src="images/linkr.PNG">
+                                        <p><strong>Listr.com (Capstone Project)</strong></p>
+                                        <p>A website where you can list your favorite things</p>
+                                        <p>Languages Used: C#, ASP.NET, PHP, SQL, HTML, BootStrap</p>
+                                        <p><a href="http://sheridancapstone-001-site1.etempurl.com">Website</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumbnail">
+                                        <img cl src="images/japNow.PNG" />
+                                        <p><strong>JapNow.com</strong></p>
+                                        <p>A tourist website about Japan</p>
+                                        <p>Languages Used: HTML, CSS, AJAX, PHP</p>
+                                        <p><a href="https://github.com/boreBones/Source-Files/tree/master/JapNow">GitHub Repository</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumbnail">
+                                        <img src="images/toDoApp.PNG">
+                                        <p><strong>To Do Notes Application</strong></p>
+                                        <p>A visual novel game about finding a date in a bar</p>
+                                        <p>Languages Used: C# & ASP.NET</p>
+                                        <p><a href="https://github.com/boreBones/Source-Files/tree/master/T_R_C_F_Final_Project">GitHub Repository</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumbnail">
+                                        <img cl src="images/MTSPC.PNG" />
+                                        <p><strong>MSPC.com</strong></p>
+                                        <p>Website for a Local Accounting Firm</p>
+                                        <p>Languages Used: HTML, CSS & JQuery</p>
+                                        <p><a href="https://github.com/boreBones/Source-Files/tree/master/public_html">GitHub Repository</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumbnail">
+                                        <img src="images/jQueryMobile.PNG">
+                                        <p><strong>Tourist Destination Mobile Site</strong></p>
+                                        <p>A visual novel game about finding a date in a bar</p>
+                                        <p>Languages Used: HTML, CSS, JQuery & JQuery Mobile</p>
+                                        <p><a href="http://mobile.sheridanc.on.ca/~syefaiza/Final%20Project/">Website</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumbnail">
+                                        <img src="images/datingGame.PNG">
+                                        <p><strong>Visual Novel Game</strong></p>
+                                        <p>A visual novel game about finding a date in a bar</p>
+                                        <p>Languages Used: C++ & SDL Library</p>
+                                        <p><a href="https://github.com/boreBones/Source-Files/tree/master/DatingGame_FinalProject">GitHub Repository</a></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-1">
@@ -192,7 +221,9 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">My Projects:</h2>
-                    <p class="lead">These project I have done over the course of 7+ years of coding, it contain many different types of applications ranging from Object Oriented Applications, Web Based Applications, and even a game.</p>
+                    <div class="wow bounceInUp">
+                        <p class="lead">These project I have done over the course of 7+ years of coding, it contain many different types of applications ranging from Object Oriented Applications, Web Based Applications, and even a game.</p>
+                    </div>
                 </div>
             </div>
 
@@ -206,16 +237,19 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Resume</h2>
-                    <p class="lead">Click on the image for the larger version</p>
+                    <div class="wow fadeInLeft">
+                        <p class="lead">Change the Size with the Slider Below:</p>
+                        <p><input id="image-size" class="texture" type="range" min="400" value="50" max="700"></p>
+                    </div>
                 </div>
-                <div class="col-lg-7 col-lg-offset-2 col-sm-6">
-                    <a href="images/resume.jpg">
-                        <img class="img-responsive" src="images/resume.jpg">
-                    </a>
+                <div class="col-lg-7 col-lg-offset-1 col-sm-6">
+                    <div class="img-container">
+                        <img src="images/resume.jpg" width="400px">
+                    </div>
                 </div>
             </div>
 
@@ -260,6 +294,7 @@
     <!-- Animate Scroll Plugin -->
     <script src="js/animatescroll.js"></script>
 
+    <!-- Slider Plugin -->
     <script src="js/unslider-min.js"></script>
 
     <script>
@@ -269,6 +304,11 @@
                 nav: false,
                 animateHeight: true
             });
+        });
+
+        $('#image-size').change(function() {
+            var Width = $(this).val() + "px";
+            $('img').css("width", Width);
         });
 
     </script>
