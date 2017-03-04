@@ -1,11 +1,16 @@
-* * Start Bootstrap - Landing Page (http: //startbootstrap.com/)
-* Copyright 2013-2016 Start Bootstrap * Licensed under MIT (https: //github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
-*/ body, html {
+body,
+html {
     width: 100%;
     height: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
@@ -49,7 +54,7 @@ body, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20%;
 }
 
-.intro-message > h1 {
+.intro-message>h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
@@ -61,7 +66,7 @@ body, h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.intro-message > h3 {
+.intro-message>h3 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -69,15 +74,15 @@ body, h1, h2, h3, h4, h5, h6 {
     .intro-message {
         padding-bottom: 15%;
     }
-    .intro-message > h1 {
+    .intro-message>h1 {
         font-size: 3em;
     }
-    ul.intro-social-buttons > li {
+    ul.intro-social-buttons>li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-    ul.intro-social-buttons > li:last-child {
+    ul.intro-social-buttons>li:last-child {
         margin-bottom: 0;
     }
     .intro-divider {
@@ -152,12 +157,132 @@ body, h1, h2, h3, h4, h5, h6 {
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
     }
-    ul.banner-social-buttons > li {
+    ul.banner-social-buttons>li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-    ul.banner-social-buttons > li:last-child {
+    ul.banner-social-buttons>li:last-child {
         margin-bottom: 0;
     }
+}
+
+
+/* Slider css */
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 14.8px 0;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: #000000;
+    border-radius: 0px;
+    border: 0.4px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 1px solid #000000;
+    height: 38px;
+    width: 16px;
+    border-radius: 50px;
+    background: #45d9e5;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -15.2px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #808080;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: #000000;
+    border-radius: 0px;
+    border: 0.4px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 1px solid #000000;
+    height: 38px;
+    width: 16px;
+    border-radius: 50px;
+    background: #45d9e5;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #000000;
+    border: 0.4px solid #010101;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #000000;
+    border: 0.4px solid #010101;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 1px solid #000000;
+    height: 38px;
+    width: 16px;
+    border-radius: 50px;
+    background: #45d9e5;
+    cursor: pointer;
+    height: 8.4px;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #000000;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #808080;
+}
+
+
+/* Title Text For Faizan Syed */
+
+.clip-text {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .5em .25em;
+    text-align: center;
+    background-image: url(http://hd.wallpaperswide.com/thumbs/abstract_black_design_2-t2.jpg);
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
