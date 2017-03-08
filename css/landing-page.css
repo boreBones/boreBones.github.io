@@ -44,7 +44,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../images/intro-bg.jpg) no-repeat center center;
+    background: url(../images/intro.gif) no-repeat center center;
     background-size: cover;
 }
 
@@ -125,7 +125,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../images/banner-bg.jpg) no-repeat center center;
+    background: url(../images/clouds.gif) no-repeat center center;
     background-size: cover;
 }
 
@@ -285,4 +285,23 @@ input[type=range]:focus::-ms-fill-upper {
     color: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.thumbnail {
+    background-color: #f1f3f3;
+}
+
+
+/* For the Title, Slider, and Images */
+
+@media only screen and (max-width: 500px) {
+    .clip-text {
+        font-size: 4em;
+    }
+    .anim {
+        width: 50px;
+    }
+    input[type=range] {
+        display: none;
+    }
 }
