@@ -196,7 +196,7 @@ input[type=range]::-webkit-slider-thumb {
     height: 38px;
     width: 16px;
     border-radius: 50px;
-    background: #45d9e5;
+    background: #36b2bc;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -15.2px;
@@ -222,7 +222,7 @@ input[type=range]::-moz-range-thumb {
     height: 38px;
     width: 16px;
     border-radius: 50px;
-    background: #45d9e5;
+    background: #36b2bc;
     cursor: pointer;
 }
 
@@ -255,7 +255,7 @@ input[type=range]::-ms-thumb {
     height: 38px;
     width: 16px;
     border-radius: 50px;
-    background: #45d9e5;
+    background: #36b2bc;
     cursor: pointer;
     height: 8.4px;
 }
@@ -291,17 +291,38 @@ input[type=range]:focus::-ms-fill-upper {
     background-color: #f1f3f3;
 }
 
+.mobileText {
+    display: none;
+}
+
 
 /* For the Title, Slider, and Images */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
     .clip-text {
         font-size: 4em;
     }
     .anim {
-        width: 50px;
-    }
-    input[type=range] {
         display: none;
+    }
+    input[type=range],
+    .sliderText {
+        display: none;
+    }
+    .mobileText {
+        display: inline;
+    }
+    .resume {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    input[type=range],
+    .sliderText {
+        display: none;
+    }
+    .mobileText {
+        display: inline;
     }
 }
