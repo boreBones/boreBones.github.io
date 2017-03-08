@@ -39,7 +39,6 @@
             live: true
         })
         wow.init();
-
     </script>
 </head>
 
@@ -242,13 +241,14 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Resume</h2>
                     <div class="wow fadeInLeft">
-                        <p class="lead">Change the Size with the Slider Below:</p>
+                        <p class="lead sliderText">Change the Size with the Slider Below:</p>
+                        <p class="lead mobileText">Click on the Resume to Enlarge:</p>
                         <p><input id="image-size" class="texture" type="range" min="400" value="50" max="700"></p>
                     </div>
                 </div>
                 <div class="col-lg-7 col-lg-offset-1 col-sm-6">
-                    <div class="img-container">
-                        <a href="images/resume.jpg"><img src="images/resume.jpg" width="400px"></a>
+                    <div class="img-container wow fadeIn">
+                        <a href="images/resume.jpg"><img class="resume" src="images/resume.jpg" width="400px"></a>
                     </div>
                 </div>
             </div>
@@ -310,7 +310,6 @@
             var Width = $(this).val() + "px";
             $('img').css("width", Width);
         });
-
     </script>
 </body>
 
