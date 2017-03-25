@@ -26,11 +26,13 @@ h6 {
 }
 
 .navbar {
-    background-color: #c9cfcf;
+    background-color: #8F6B62;
+    border-color: #8F6B62;
 }
 
-.topnav {
+.navbar-default .navbar-nav>li>a {
     font-size: 14px;
+    color: #5e5e5e;
 }
 
 .lead {
@@ -43,7 +45,6 @@ h6 {
     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
     background: url(../images/intro.gif) no-repeat center center;
     background-size: cover;
 }
@@ -58,12 +59,6 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .intro-message>h3 {
@@ -85,9 +80,6 @@ h6 {
     ul.intro-social-buttons>li:last-child {
         margin-bottom: 0;
     }
-    .intro-divider {
-        width: 100%;
-    }
 }
 
 .network-name {
@@ -99,17 +91,13 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #001133;
-    color: #f8f8f8;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    background-color: #b1948d;
+    color: #23404E;
 }
 
 .content-section-b {
-    background-color: #f1f3f3;
+    background-color: #62868f;
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
 }
 
 .section-heading {
@@ -119,19 +107,18 @@ h6 {
 .section-heading-spacer {
     float: left;
     width: 200px;
-    border-top: 3px solid #e7e7e7;
 }
 
 .banner {
     padding: 100px 0;
-    color: #f8f8f8;
     background: url(../images/clouds.gif) no-repeat center center;
     background-size: cover;
+    text-align: center;
 }
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-bottom: .5em;
     font-size: 3em;
 }
 
@@ -139,133 +126,97 @@ h6 {
     margin-bottom: 0;
 }
 
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-        font-size: 3em;
-    }
-    ul.banner-social-buttons>li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-    ul.banner-social-buttons>li:last-child {
-        margin-bottom: 0;
-    }
+.list-inline>li {
+    padding: .2em;
 }
 
 
-/* Slider css */
+/* Range Slider css */
 
-input[type=range] {
+.range {
     -webkit-appearance: none;
-    width: 100%;
-    margin: 14.8px 0;
+    -moz-appearance: none;
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: rgba(59, 173, 227, 1);
+    background: -moz-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(59, 173, 227, 1)), color-stop(25%, rgba(87, 111, 230, 1)), color-stop(51%, rgba(152, 68, 183, 1)), color-stop(100%, rgba(255, 53, 127, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1);
+    height: 2px;
 }
 
 input[type=range]:focus {
     outline: none;
 }
 
-input[type=range]::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 8.4px;
-    cursor: pointer;
-    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    background: #000000;
-    border-radius: 0px;
-    border: 0.4px solid #010101;
+input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    background: rgba(59, 173, 227, 1);
+    background: -moz-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(59, 173, 227, 1)), color-stop(25%, rgba(87, 111, 230, 1)), color-stop(51%, rgba(152, 68, 183, 1)), color-stop(100%, rgba(255, 53, 127, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    background: linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1);
+    height: 2px;
 }
 
 input[type=range]::-webkit-slider-thumb {
-    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    border: 1px solid #000000;
-    height: 38px;
-    width: 16px;
-    border-radius: 50px;
-    background: #36b2bc;
-    cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -15.2px;
-}
-
-input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #808080;
-}
-
-input[type=range]::-moz-range-track {
-    width: 100%;
-    height: 8.4px;
-    cursor: pointer;
-    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    background: #000000;
-    border-radius: 0px;
-    border: 0.4px solid #010101;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    max-width: 80px;
+    position: relative;
+    bottom: 11px;
+    background-color: #1d1c25;
+    cursor: -webkit-grab;
+    -webkit-transition: border 1000ms ease;
+    transition: border 1000ms ease;
 }
 
 input[type=range]::-moz-range-thumb {
-    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    border: 1px solid #000000;
-    height: 38px;
-    width: 16px;
-    border-radius: 50px;
-    background: #36b2bc;
-    cursor: pointer;
+    -moz-appearance: none;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    max-width: 80px;
+    position: relative;
+    bottom: 11px;
+    background-color: #1d1c25;
+    cursor: -moz-grab;
+    -moz-transition: border 1000ms ease;
+    transition: border 1000ms ease;
 }
 
-input[type=range]::-ms-track {
-    width: 100%;
-    height: 8.4px;
-    cursor: pointer;
-    background: transparent;
-    border-color: transparent;
-    color: transparent;
+.range.blue::-webkit-slider-thumb {
+    border-color: rgb(59, 173, 227);
 }
 
-input[type=range]::-ms-fill-lower {
-    background: #000000;
-    border: 0.4px solid #010101;
-    border-radius: 0px;
-    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+.range.blue::-moz-range-thumb {
+    border-color: rgb(59, 173, 227);
 }
 
-input[type=range]::-ms-fill-upper {
-    background: #000000;
-    border: 0.4px solid #010101;
-    border-radius: 0px;
-    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+input[type=range]::-webkit-slider-thumb:active {
+    cursor: -webkit-grabbing;
 }
 
-input[type=range]::-ms-thumb {
-    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    border: 1px solid #000000;
-    height: 38px;
-    width: 16px;
-    border-radius: 50px;
-    background: #36b2bc;
-    cursor: pointer;
-    height: 8.4px;
-}
-
-input[type=range]:focus::-ms-fill-lower {
-    background: #000000;
-}
-
-input[type=range]:focus::-ms-fill-upper {
-    background: #808080;
+input[type=range]::-moz-range-thumb:active {
+    cursor: -moz-grabbing;
 }
 
 
@@ -288,7 +239,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .thumbnail {
-    background-color: #f1f3f3;
+    background-color: #c8d0d0;
 }
 
 .mobileText {
