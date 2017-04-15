@@ -1,0 +1,135 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #f2c27f;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+    color: #5e5e5e;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url(../images/basketball.png) no-repeat center center;
+    background-size: contain;
+    color: whitesmoke;
+    background-color: #f9e3c4;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+
+.intro-message>h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-message>h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-message>h1 {
+        font-size: 3em;
+    }
+    ul.intro-social-buttons>li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons>li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: white;
+    color: #23404E;
+}
+
+.content-section-b {
+    background-color: #4AFDC5;
+    padding: 50px 0;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+}
+
+.nbalogo {
+    background-color: white;
+}
+
+.focus {
+    opacity: 1;
+    padding: 0;
+}
+
+.focus:hover {
+    opacity: .7;
+}
+
+.modelHeading {
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 0;
+    padding-top: 0.1em;
+}
+
+.modal-body {
+    position: relative;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.05;
+}
+
+.modelSubHeading {
+    text-decoration: underline;
+    margin: 0;
+    display: inline;
+}
