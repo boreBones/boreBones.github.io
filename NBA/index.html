@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset='UTF-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NBA Playoff Time</title>
+
+    <!-- Bootstrap & jQuery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Animate Scroll Plugin -->
+    <script src="js/animatescroll.js"></script>
+
+    <!-- Animate Timeing Plugin -->
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 100,
+            mobile: true,
+            live: true
+        })
+        wow.init();
+
+    </script>
+
+    <script type="text/javascript">
+        var n = 1;
+        $(document).ready(function() {
+            function parse(document) {
+                $(document).find("Team").each(function() {
+                    $("#content").append(
+                        '<div class="col-md-3 col-sm-4 col-xs-6 focus"> <a data-toggle="modal" data-target="#myModal' + n + '" href="#"><img src="' + $(this).find('Image').text() + '" class="img-responsive" /></a></div>' +
+                        '<div class="modal fade" id="myModal' + n + '" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">' +
+                        '<div class = "modal-dialog" role = "document" >' +
+                        '<div class = "modal-content" >' +
+                        '<div class = "modal-header" >' +
+                        '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+                        '<h4 class="modal-title" id="myModalLabel">' +
+                        $(this).find('TeamName').text() + '</h4>' +
+                        '</div><div class="modal-body"> ' +
+                        '<img class="background" src="' + $(this).find('Logo').text() + '">' +
+                        //Body Text
+                        '<p class="modelHeading">Play Style:</p>' +
+                        $(this).find('Style').text() +
+                        '<p class="modelHeading">Fact to Impress People:</p>' +
+                        $(this).find('Fact').text() +
+                        '<p class="modelHeading">Star Players:</p> <div id="players' + n + '"></div>' +
+                        '</div></div></div>'
+                    );
+                    $(this).find('Player').each(function() {
+                        $("#players" + n).append('<div class="row"> <div class="col-xs-4"> <img class="img-responsive img-rounded" src="' + $(this).find('Picture').text() +
+                            '" ></div>' + '<div class="col-xs-8">' +
+                            '<p class="modelSubHeading">Name:</p> ' + $(this).find('Name').text() + '<br/>' +
+                            '<p class="modelSubHeading">Position:</p> ' + $(this).find('Position').text() + '<br/>' +
+                            '<p class="modelSubHeading">Age:</p> ' + $(this).find('Age').text() + '<br/>' +
+                            '<p class="modelSubHeading">Birthplace:</p> ' + $(this).find('Birthplace').text() + '<br/>' +
+                            "</div></div>")
+                    });
+                    n++;
+                });
+            }
+
+            $.ajax({
+                url: 'file.xml', // name of file you want to parse
+                dataType: "xml",
+                success: parse,
+                error: function() {
+                    alert("Error: Something went wrong");
+                }
+            });
+        });
+
+    </script>
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/template.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" onclick="$('#about').animatescroll();">About</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="$('#section2').animatescroll();">Rules</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="$('#section3').animatescroll();">Playoffs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Intro Header -->
+    <div class="intro-header" id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>NBA Playoff Time</h1>
+                        <div class="clearfix"></div>
+                        <h3>A Hipster's Guide to the NBA Playoffs</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <!-- Content Section A-->
+    <div class="content-section-a" id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">What is the NBA?</h2>
+                    <div class="wow bounceInUp">
+                        <p class="lead">
+                            Sea nibh paulo efficiantur ei, quo et voluptaria mediocritatem. Illum habemus pro ne, nam ad justo eligendi volutpat, ea erat causae vel. His ne errem tractatos. Eu pro suavitate conceptam, has an erant expetendis, id has ferri deleniti. Cum dolore sapientem accusamus et, ad veritus omittam nam.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 col-sm-6">
+                    <img class="img-responsive anim wow fadeInRight nbalogo" src="images/Logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-section-b" id="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-responsive anim wow fadeInLeft" src="images/shots.gif" alt="">
+                </div>
+                <div class="col-sm-8">
+                    <h2 class="section-heading">Rules of the Game:</h2>
+                    <div class="wow bounceInUp">
+                        <p class="lead">At quo ridens vocibus, ipsum exerci labore mea at. Ius at movet elaboraret contentiones, unum brute duo an, est et eruditi intellegat. Labores vivendo eos cu. An usu senserit consequat delicatissimi. Vix eu enim quidam, in mei quod veri liber. Quis quaeque ei eam, cu alii mutat pertinacia sea, nonumes philosophia pro id.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section-a" id="section3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Playoffs and Team Information:</h2>
+                    <div class="wow bounceInUp">
+                        <p class="lead">At quo ridens vocibus, ipsum exerci labore mea at. Ius at movet elaboraret contentiones, unum brute duo an, est et eruditi intellegat. Labores vivendo eos cu. An usu senserit consequat delicatissimi. Vix eu enim quidam, in mei quod veri liber. Quis quaeque ei eam, cu alii mutat pertinacia sea, nonumes philosophia pro id.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <a href="images/brackets.jpg"><img src="images/brackets.jpg" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div id="content"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

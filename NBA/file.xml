@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NBA>
+    <Team>
+        <TeamName>Golden State </TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/logo-golden-state-warriors1.png</Logo>
+        <Image>images/teamLogos/warriors.jpeg</Image>
+        <Style>
+            The team plays a style of basketball called Small Ball. Small Ball sacrifices height,
+            physical strength and low post offense/defense in favor of a lineup of smaller players for speed,
+            agility and increased scoring (often from the three-point line).
+
+        </Style>
+        <Fact>
+            Throughout the course of this season, the Warriors will travel a total distance of 54,436 miles.
+        </Fact>
+        <Player>
+            <Name>Steph Curry</Name>
+            <Position>Point Guard</Position>
+            <Age>29</Age>
+            <Birthplace>Akron, Ohio</Birthplace>
+            <Picture>https://s-media-cache-ak0.pinimg.com/originals/ca/97/ca/ca97ca5d6c415e188797cd573d3de7fe.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>Kevin Durant</Name>
+            <Position>Power Forward</Position>
+            <Age>28</Age>
+            <Birthplace>Washington, D.C.</Birthplace>
+            <Picture>https://usathoopshype.files.wordpress.com/2017/01/i_73_90_7f_kevin-durant.png</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Portland Trail Blazers</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/04/screen-shot-2016-04-26-at-2-43-19-pm.jpg</Logo>
+        <Image>images/teamLogos/blazers.jpeg</Image>
+        <Style>
+            The Team is built on thier backcourt pairing of CJ and Lillard. Offensivly those players are very good however cause of thier small size they are horrides on defence.
+
+        </Style>
+        <Fact>
+            People in Portland are so excited about this team, they are centering their weddings around it
+        </Fact>
+        <Player>
+            <Name>Damian Lillard</Name>
+            <Position>Point Guard</Position>
+            <Age>26</Age>
+            <Birthplace>Oakland, California</Birthplace>
+            <Picture>https://assets.audiomack.com/fashionably-early/1a366fd41f2fe4447b6ead8dd182f6a3.jpeg</Picture>
+        </Player>
+        <Player>
+            <Name>C. J. McCollum</Name>
+            <Position>Shooting Guard</Position>
+            <Age>25</Age>
+            <Birthplace>Canton, Ohio</Birthplace>
+            <Picture>https://givestep.com/media/cache/cause_thumb/uploads//McCollum.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>Jusuf Nurkić</Name>
+            <Position>Power Forward</Position>
+            <Age>22</Age>
+            <Birthplace>Bosnia and Herzegovina</Birthplace>
+            <Picture>https://d1tjohjvimcqgl.cloudfront.net/category/206369_n.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Los Angeles Clippers</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/04/screen-shot-2016-04-26-at-2-40-38-pm.jpg</Logo>
+        <Image>images/teamLogos/clippers.jpeg</Image>
+        <Style>
+            Also known as Lob City,
+            cause of all the alley-oops and crazy dunks they do in their games.
+
+        </Style>
+        <Fact>
+            The Clippers' name was inspired by the ships that often passed through the San Diego Bay. After they relocated to L.A., they decided to keep the moniker.
+        </Fact>
+        <Player>
+            <Name>Chris Paul</Name>
+            <Position>Point Guard</Position>
+            <Age>31</Age>
+            <Birthplace>Winston-Salem, North Carolina</Birthplace>
+            <Picture>http://clearviewseattle.com/wp-content/uploads/chris-paul_416x416.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>Blake Griffin</Name>
+            <Position>Power Forward</Position>
+            <Age>28</Age>
+            <Birthplace>Oklahoma City, Oklahoma</Birthplace>
+            <Picture>http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/allstar/2011/blake_griffin_250.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>DeAndre Jordan</Name>
+            <Position>Center</Position>
+            <Age>28</Age>
+            <Birthplace>Houston, Texas</Birthplace>
+            <Picture>https://cdn-s3.si.com/s3fs-public/teams/basketball/nba/players/398142-300x300.png</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Utah Jazz</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/download1.png</Logo>
+        <Image>images/teamLogos/jazz.jpeg</Image>
+        <Style>
+            Known for their slow type of play and stifling defense.
+
+        </Style>
+        <Fact>
+            One of the most storied and successful NBA teams from 1980 to 2000, the Utah Jazz has been fortunately peppered by a number of curious and original talents, both amongst the players and the administration.
+        </Fact>
+        <Player>
+            <Name>Gordon Hayward</Name>
+            <Position>Small Forward</Position>
+            <Age>27</Age>
+            <Birthplace>Indianapolis, Indiana</Birthplace>
+            <Picture>https://rical-players-nba.s3.amazonaws.com/250x250/a1ddebee-950c-497d-9acd-b5061360b464.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>Rudy Gobert</Name>
+            <Position>Center</Position>
+            <Age>24</Age>
+            <Birthplace>Saint-Quentin, France</Birthplace>
+            <Picture>https://pbs.twimg.com/profile_images/552184012349788160/GErMD34C.jpeg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Houston Rockets</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/04/screen-shot-2016-04-26-at-2-34-36-pm.jpg</Logo>
+        <Image>images/teamLogos/rockets.jpeg</Image>
+        <Style>
+            The team is built around their Superstar James Harden. They play a very fast style that pushes pace and aims to shoot 3-Pointers.
+
+        </Style>
+        <Fact>
+            Their first basketball game took place in 1982, where the court was half the size of today's courts, and only one point was scored during the match.
+        </Fact>
+        <Player>
+            <Name>James Harden</Name>
+            <Position>Shooting Guard</Position>
+            <Age>27</Age>
+            <Birthplace>Los Angeles, California</Birthplace>
+            <Picture>http://vz.cnwimg.com/thumbc-300x300/wp-content/uploads/2012/06/james.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Oklahoma City Thunder</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/04/oklahoma_city_thunder-svg.png</Logo>
+        <Image>images/teamLogos/okc.jpeg</Image>
+        <Style>
+            The team is built around their Superstar Russell Westbrook who averged a triple double during the regular season. A triple-double is the accumulation of a double-digit number total in three of the five categories in a game. The most common way to achieve a triple-double is through points,
+            rebounds,
+            and assists.
+
+        </Style>
+        <Fact>
+            Their fans are among the loudest, most enthusiastic and dedicated in the league.
+        </Fact>
+        <Player>
+            <Name>Russell Westbrook</Name>
+            <Position>Point Guard</Position>
+            <Age>28</Age>
+            <Birthplace>Long Beach, California</Birthplace>
+            <Picture>https://www.earnthenecklace.com/wp-content/uploads/2017/03/Russell-Westbrook-Highlights-300x300.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>San Antonio Spurs</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/1280px-san_antonio_spurs-svg.png</Logo>
+        <Image>images/teamLogos/spurs.jpeg</Image>
+        <Style>
+            The team plays a team-oriented,
+            pass first style.
+
+        </Style>
+        <Fact>
+            The Spurs have won 50 games or more in each of the last 14 seasons.
+        </Fact>
+        <Player>
+            <Name>Kawhi Leonard</Name>
+            <Position>Small Forward</Position>
+            <Age>25</Age>
+            <Birthplace>Los Angeles, California</Birthplace>
+            <Picture>https://blog-blogmediainc.netdna-ssl.com/upload/SportsBlogcom/2829488/0544576001458221928_filepicker.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Memphis Grizzlies</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/04/memphis_grizzlies-svg.png</Logo>
+        <Image>images/teamLogos/grizzlies.jpeg</Image>
+        <Style>
+            The team plays a style known as grit and grind cause of their slow pace and tough defence.
+
+        </Style>
+        <Fact>
+            The Grizzlies, based out of Vancouver, joined the NBA in the 1995-1996 season. Along with the Toronto Raptors, Vancouver was the first non-U.S. city to join the league since 1946.
+        </Fact>
+        <Player>
+            <Name>Mike Conley Jr.</Name>
+            <Position>Point Guard</Position>
+            <Age>29</Age>
+            <Birthplace>Fayetteville, Arkansas</Birthplace>
+            <Picture>http://vz.cnwimg.com/thumbc-250x250/wp-content/uploads/2016/07/conley2.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>Marc Gasol</Name>
+            <Position>Center</Position>
+            <Age>32</Age>
+            <Birthplace>Barcelona, Spain</Birthplace>
+            <Picture>http://playerswiki.com/uploads/bio/2016/06/19/marc-gasol.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Boston Celtics</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/celtics-logos.png</Logo>
+        <Image>images/teamLogos/celts.jpeg</Image>
+        <Style>
+            The team plays a team oriented,
+            fast pace style of Basketball.
+
+        </Style>
+        <Fact>
+            The Celtics were the first NBA franchise to draft an African-American player.
+        </Fact>
+        <Player>
+            <Name>Isaiah Thomas</Name>
+            <Position>Point Guard</Position>
+            <Age>28</Age>
+            <Birthplace>Tacoma, Washington</Birthplace>
+            <Picture>http://www.thebostoncalendar.com/system/events/photos/000/052/300/original/fG3BMJQS.jpg?1446738358</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Chicago Bulls</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/bullslogo.png</Logo>
+        <Image>images/teamLogos/bulls.jpeg</Image>
+        <Style>
+            Play a speed,
+            movement,
+            and motion based offence.
+
+        </Style>
+        <Fact>
+            Its founder Dick Klein was the only owner to ever play professional basketball.
+        </Fact>
+        <Player>
+            <Name>Jimmy Butler</Name>
+            <Position>Shooting Guard</Position>
+            <Age>27</Age>
+            <Birthplace>Houston, Texas</Birthplace>
+            <Picture>https://s-media-cache-ak0.pinimg.com/originals/34/67/60/346760c4cea2456681071aba65c2ad5d.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Washington Wizards</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/5671_washington_wizards-primary-2016.png</Logo>
+        <Image>images/teamLogos/wizards.jpeg</Image>
+        <Style>
+            The team is based on the speed of John Wall and Bradley Beal's shooting ability.
+
+        </Style>
+        <Fact>
+            The two shortest players in NBA history played for Washington during their career and the two tallest players in NBA history played for Washington during their career.
+        </Fact>
+        <Player>
+            <Name>John Wall</Name>
+            <Position>Point Guard</Position>
+            <Age>26</Age>
+            <Birthplace>Raleigh, North Carolinas</Birthplace>
+            <Picture>http://static.djbooth.net/pics-features/JohnWall.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>Bradley Beal</Name>
+            <Position>Shooting Guard</Position>
+            <Age>23</Age>
+            <Birthplace>St. Louis, Missouri</Birthplace>
+            <Picture>https://www.basketnews.lt/paveikslelis-138886-crop509x509.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Atlanta Hawks</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/primary.jpg</Logo>
+        <Image>images/teamLogos/hawks.jpeg</Image>
+        <Style>
+            The team's playstyle is very team oriented.
+
+        </Style>
+        <Fact>
+            On February 8th, 1986 a backup Hawks Point Guard who stands at 5’7″ and is one of the smallest people ever to play professional basketball won the Slam Dun Contest.
+        </Fact>
+        <Player>
+            <Name>Paul Millsap</Name>
+            <Position>Power Forward</Position>
+            <Age>32</Age>
+            <Birthplace>Monroe, Louisiana</Birthplace>
+            <Picture>https://s-media-cache-ak0.pinimg.com/736x/80/7c/47/807c472d03c5fdf93ccbfe9d6ff45e7e.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Toronto Raptors</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/04/screen-shot-2016-04-26-at-2-31-28-pm.jpg</Logo>
+        <Image>images/teamLogos/raptors.jpeg</Image>
+        <Style>
+            The team's playstyle is very isolation heavy with their two stars. In isolation one guy gets the ball. His teammates back away, drawing their defenders as far from the ball as possible, and the ball-handler tries to beat his man one-on-one.
+
+        </Style>
+        <Fact>
+            The Raptors weren't the first NBA teams to tip off north of the border. That honor belongs to the Toronto Huskies, one of the first teams in the league.
+        </Fact>
+        <Player>
+            <Name>Kyle Lowry</Name>
+            <Position>Point Guard</Position>
+            <Age>31</Age>
+            <Birthplace>Philadelphia, Pennsylvania</Birthplace>
+            <Picture>http://www.thereviewsarein.com/wp-content/uploads/2014/11/Kyle-Lowry-Raptors-Throwback.png</Picture>
+        </Player>
+        <Player>
+            <Name>DeMar DeRozan</Name>
+            <Position>Shooting Guard</Position>
+            <Age>27</Age>
+            <Birthplace>Compton, California</Birthplace>
+            <Picture>http://vz.cnwimg.com/thumbc-250x250/wp-content/uploads/2016/12/Demar-Derozan-jump-shot.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Milwaukee Bucks</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/screen-shot-2016-05-27-at-9-51-26-am.jpg</Logo>
+        <Image>images/teamLogos/bucks.jpeg</Image>
+        <Style>
+            A team built so that any player can defend any position. The team plays around their budding superstar Giannis Antetokounmpo.
+
+        </Style>
+        <Fact>
+            Their star player leads the Bucks in every major stat category
+        </Fact>
+        <Player>
+            <Name>Giannis Antetokounmpo</Name>
+            <Position>Point Guard</Position>
+            <Age>22</Age>
+            <Birthplace>Greece</Birthplace>
+            <Picture>http://explica.co/posts/giannis-antetokounmpo/img/giannis-antetokounmpo_prof.png</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Cleveland Cavaliers</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/04/cleveland_cavaliers_2010-svg.png</Logo>
+        <Image>images/teamLogos/cavs.jpeg</Image>
+        <Style>
+            Four Around One Offence with Lebron being the primary playmaker. This motion offense uses four perimeter players and one post player,
+            and is a good offense to use when your team has good outside players and only a few post players
+
+        </Style>
+        <Fact>
+            The Game with the Largest Margin of Victory Involved the Cleveland Cavaliers 148-80 against the Miami Heat.
+        </Fact>
+        <Player>
+            <Name>LeBron James</Name>
+            <Position>Small Forward</Position>
+            <Age>32</Age>
+            <Birthplace>Akron, Ohio</Birthplace>
+            <Picture>http://kingofwallpapers.com/lebron-james/lebron-james-016.jpg</Picture>
+        </Player>
+        <Player>
+            <Name>Kyrie Irving</Name>
+            <Position>Point Guard</Position>
+            <Age>25</Age>
+            <Birthplace>Melbourne, Australia</Birthplace>
+            <Picture>https://cdn1.lockerdome.com/uploads/505b0096d61d50bbe8b014d15c55c79e4db969effa625e1c4bb9c24840c7d952_large</Picture>
+        </Player>
+        <Player>
+            <Name>Kevin Love</Name>
+            <Position>Power Forward, Center</Position>
+            <Age>32</Age>
+            <Birthplace>Santa Monica, California</Birthplace>
+            <Picture>http://www.pba-online.net/uploads/photo/kevin-love-101514-2.jpg</Picture>
+        </Player>
+    </Team>
+    <Team>
+        <TeamName>Indiana Pacers</TeamName>
+        <Logo>https://usatftw.files.wordpress.com/2016/05/indiana_pacers-svg.png</Logo>
+        <Image>images/teamLogos/pacers.jpeg</Image>
+        <Style></Style>
+        <Fact>
+            Pacers Most Unlikely Fan Club — ChinaPacers.com. This fan club has been in existence on Mainland China since the Reggie Miller days.
+        </Fact>
+        <Player>
+            <Name>Paul George</Name>
+            <Position>Small Forward</Position>
+            <Age>26</Age>
+            <Birthplace>Palmdale, California</Birthplace>
+            <Picture>https://s-media-cache-ak0.pinimg.com/originals/f4/04/44/f404446605c85d97ed0332572fac2014.jpg</Picture>
+        </Player>
+    </Team>
+</NBA>
